@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "keywords":[
+        "node.js"
+    ],
+ "license": "ISC",
+  "author": "xenon",
+  "type": "module",
+  "main": "analyze.js",
+  "scripts": {
+        "start": "node api/analyze.js",
+        "dev": "nodemon api/analyze.js",
+        "server": "nodemon api/analyze.js",
+        "test": "very ready"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
+  }
+}
